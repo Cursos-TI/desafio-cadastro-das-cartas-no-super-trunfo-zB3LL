@@ -11,7 +11,7 @@ int main() {
     setlocale(LC_ALL, "Portuguese");
 
     //Variáveis para armazenar os dados das cartas
-    int opcao, opcao2, opcao3;
+    unsigned int opcao, opcao2, opcao3;
     unsigned int populacao, populacao2, numero_de_pontos_turisticos, numero_de_pontos_turisticos2, pontuacao = 0, pontuacao2 = 0;
     char capital[50], capital2[50], pais[50], pais2[50], codigo_carta[10], codigo_carta2[10];
     float area, area2, densidade1, densidade2, densidade_invertida1, densidade_invertida2, pibpercapita1, pibpercapita2;
